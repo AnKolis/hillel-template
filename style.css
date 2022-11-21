@@ -373,7 +373,7 @@ input::-webkit-input-placeholder{
 .wrapper{
 	display: inline-block;
 	width: 1000px;
-	font-size: 0;
+	font-size: 12px;
 	text-align: center;
 
 }
@@ -395,7 +395,7 @@ input::-webkit-input-placeholder{
 	font-style: 'Arial';
 }
 
-.shop-lists div{
+.shop-lists p{
 	font-size: 12px;
 	width: 504px;
 	height: 46px;
