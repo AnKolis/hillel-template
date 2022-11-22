@@ -251,9 +251,21 @@ input::-webkit-input-placeholder{
 
 
 .bg-gradient{
+	position: relative;
 	width: 100%;
 	height: 357px;
 	background: linear-gradient(transparent 65%, #ececec);
+}
+
+.bg-gradient:before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 1px;
+	left: 0;
+	background: white;
+
 }
 
 .slide{
@@ -264,14 +276,21 @@ input::-webkit-input-placeholder{
 	right: 20px;
 }
 
-.slide li,
-.slide a{
+.slide li{
 	border-radius: 100%;
 	height: 13px;
 	width: 13px;
 	background: radial-gradient(circle at 50% 70%, #d9d5d3 ,#bfbbb8 , 
 					#7c736c 80%, #7f736a);
 }
+
+.slide li a{
+	display: inline-block;
+	border-radius: 100%;
+	height: 13px;
+	width: 13px;
+}
+
 
 .slide li{
 	margin-right: 6px;
@@ -371,34 +390,68 @@ input::-webkit-input-placeholder{
 }
 
 .wrapper{
-	display: inline-block;
-	width: 1000px;
-	font-size: 12px;
-	text-align: center;
-
-}
-
-.shop-lists{
 	display: flex;
 	justify-content: space-between;
-	background: darkgreen;
+	width: 1000px;
+	margin: 26px auto;
+
+
 }
 
-.shop-lists a{
+
+.w-list{
+	width: 221px;
+	height: 100%;	
+}
+
+.w-list-a{
+	position: relative;
 	display: block;
-	text-align: center;
-	width: 220px;
-	height: 36px;
-	border-radius: 10px;
-	border: 1px solid #1dd114;
+	text-align: left;
+	padding: 12px 0 12px 15px;
+	border-top: 1px solid #1dd114;
+	border-right: 1px solid #15b020;
+	border-bottom: 1px solid #0c8b2d;
+	border-left: 1px solid #13a723;
+	border-radius: 5px;
 	font-size: 12px;
-	font-style: 'Arial';
+	color: #0c8a2d;
+	background: linear-gradient(#ffffff, #ececec 98%, #ffffff 98% );
 }
 
-.shop-lists p{
-	font-size: 12px;
-	width: 504px;
-	height: 46px;
-	border-radius: 10px;
-	border: 1px solid #e6e6e6;
+.w-list-a:before{
+	content: "";
+	position: absolute;
+	top: -18px;
+	right: 17px;
+	width: 28px;
+	height: 33px;
+	background: url(images/layer15.png) no-repeat;
+}
+.w-list-a:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	right: 24px;
+	width: 24px;
+	height: 1px;
+	background: linear-gradient(to right, white 3px, #36ca36 3px, white 6px );
+}
+
+.articles{
+	border-radius: 5px;
+	border: 1px solid #ececec;
+	text-align: left;
+}
+
+.articles h3{
+	border-radius: ;
+	padding: 15px 0 15px 16px;
+	background: linear-gradient(#ffffff, #ececec 98%, #ffffff 98% );
+
+
+}
+
+.articles_list a{
+	background:;
 }
