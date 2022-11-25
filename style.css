@@ -679,3 +679,29 @@ span.f-s-18{
 	border-radius: 5px;
     border: 1px solid #ececec;
 }
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+
+.navigation>a{
+	padding: 23px 0 23px 34px;
+	
+}
+
+.navigation a{
+	color: black;
+}
+
+.navigation>ul{
+	display: flex;
+	justify-content: space-between;
+	width: 220px;
+	padding: 23px 0 23px 0;	
+}
+
+.navigation>a.back{
+	padding: 23px 34px 23px 0;
+}
