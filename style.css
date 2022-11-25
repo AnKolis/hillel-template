@@ -698,10 +698,26 @@ span.f-s-18{
 .navigation>ul{
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 	width: 220px;
 	padding: 23px 0 23px 0;	
 }
 
 .navigation>a.back{
 	padding: 23px 34px 23px 0;
+}
+
+.pages a.active{
+	font-size: 18px;
+	color: #2e91dc;
+	text-decoration: none;
+}
+
+.pages a:hover{
+	
+}
+
+.navigation a:hover{
+	text-decoration: none;
+	color: #ed1c24;
 }
