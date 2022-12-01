@@ -469,22 +469,10 @@ input::-webkit-input-placeholder{
 }
 
 .ads{
-	border-radius: 5px;
-	border: 1px solid #ececec;
-	text-align: left;
-	padding: 36px 15px 0 15px;
 	margin-top: 16px;
-	position: relative;
 }
 
 
-.ads div>p{
-	font-size: 12px;
-}
-
-.ads div>a{
-	vertical-align: super;
-}
 
 .f-s-18{
 	font-size: 18px;
@@ -494,48 +482,6 @@ input::-webkit-input-placeholder{
 	font-size: 10px;
 }
 
-.ads:before{
-	content: "";
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	width: 86px;
-	height: 13px;
-	background: url(images/yandex.jpg) no-repeat;
-}
-
-.all-ads{
-	color: black;
-	position: absolute;
-	top: 15px;
-	right: 15px;
-}
-
-.padding-l{
-	padding-left: 25px;
-	position: relative;
-}
-
-
-.padding-l:before{
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 2px;
-	width: 20px;
-	height: 16px;
-	background: url(images/h.jpg) no-repeat;
-}
-
-.hosting a.padding-l:before{
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 2px;
-	width: 16px;
-	height: 16px;
-	background: url(images/img.jpg) no-repeat;
-}
 
 .green{
 	color: #006600;
@@ -693,6 +639,7 @@ span.f-s-18{
 
 .navigation a{
 	color: black;
+	position: relative;
 }
 
 .navigation>ul{
@@ -705,6 +652,34 @@ span.f-s-18{
 
 .navigation>a.back{
 	padding: 23px 34px 23px 0;
+}
+
+.ahead:before{
+	content:"" ;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+	width: 10px;
+	height: 3px;
+	background: url(images/ahead.jpg) no-repeat;
+}
+
+.ahead:hover.ahead:before{
+	background: url(images/ahead-red.jpg) no-repeat;
+}
+
+.back:before{
+	content:"" ;
+	position: absolute;
+	top: 30px;
+	right: 15px;
+	width: 10px;
+	height: 3px;
+	background: url(images/back.jpg) no-repeat;
+}
+
+.back:hover.back:before{
+	background: url(images/back-red.jpg) no-repeat;
 }
 
 .pages a.active{
@@ -721,3 +696,63 @@ span.f-s-18{
 	text-decoration: none;
 	color: #ed1c24;
 }
+
+.center{
+	margin: 0 auto;
+}
+
+footer{
+	margin: 24px auto 12px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #848484;
+}
+
+footer a{
+	color: #848484;
+}
+
+.links a{
+	display: block;
+	position: relative;
+	padding-left: 7px;
+	text-align: left;
+}
+
+.links a:before{
+	content: "\203A";
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 2px;
+	height: 3px;
+}
+
+
+.foot-p{
+	width: 497px;
+	line-height: 1.5;
+}
+
+
+.free-pixel{
+	width: 166px;
+	padding-right: 38px;
+	text-align: right;
+	position: relative;
+}
+
+div.free-pixel:before{
+	content: "";
+	position: absolute;
+	top: 8px;
+	right: 0;
+	width: 28px;
+	height: 24px;
+	background: url(images/bird-1.jpg) no-repeat;
+}
+
+	
