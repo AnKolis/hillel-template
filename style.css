@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin:  0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -24,13 +24,12 @@ ol, ul {
 }
 
 body{
-	font-family: 'Arial Italic', sans-serif;
+	font-family: Arial,'Helvetica CY','Nimbus Sans L',
+				 sans-serif;
 	text-align: center;
-	font-size: 0;
 	position: relative;
 	font-size: 24px;
 }
-
 
 .bg-sky{
 	position: relative;
@@ -50,7 +49,6 @@ header{
 }
 
 .head{
-	
 	display: flex;
 	justify-content: space-between;
 	position: relative;
@@ -64,7 +62,6 @@ header{
 	width: 137px;
 	height: 37px;
 }
-
 
 .price{
 	padding: 6px 0 0 10px;
@@ -112,7 +109,6 @@ input::-webkit-input-placeholder{
 	margin: 0 0 0 5px;	
 }
 
-
 .search {
 	margin-bottom: 27px ;
 }
@@ -151,11 +147,11 @@ input::-webkit-input-placeholder{
 	color: #fff200;
 }
 
- .nav li{
+.nav li{
 	position: relative;
 }
 
- .nav li:after{
+.nav li:after{
 	content: "";
 	width: 1px;
 	height: 34px;
@@ -165,7 +161,7 @@ input::-webkit-input-placeholder{
 	top: 0;
 }
 
- .nav li:last-child:after{
+.nav li:last-child:after{
 	content: "";
 	width: 0;	
 }
@@ -292,7 +288,6 @@ input::-webkit-input-placeholder{
 }
 
 .menu{
-
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -313,7 +308,6 @@ input::-webkit-input-placeholder{
 
 .shops{
 	padding: 0 50px 0 86px;
-
 }
 
 .shops:before{
@@ -344,11 +338,11 @@ input::-webkit-input-placeholder{
 .menu div:first-child:after{
 	content: "";
 	width: 0;
-	}
+}
 
 .advice{
 		padding: 0 50px 0 118px;
-	}
+}
 
 .advice:before{
 	content: "";
@@ -381,7 +375,6 @@ input::-webkit-input-placeholder{
 	margin: 26px auto;
 }
 
-
 .w-list{
 	width: 221px;
 	height: 100%;	
@@ -411,6 +404,7 @@ input::-webkit-input-placeholder{
 	height: 33px;
 	background: url(images/layer15.png) no-repeat;
 }
+
 .w-list-a:after{
 	content: "";
 	position: absolute;
@@ -433,8 +427,6 @@ input::-webkit-input-placeholder{
 	padding: 15px 0 15px 16px;
 	font-size: 18px;
 	background: linear-gradient(#ffffff, #ececec 98%, #ffffff 98% );
-
-
 }
 
 .articles_list a{
@@ -472,8 +464,6 @@ input::-webkit-input-placeholder{
 	margin-top: 16px;
 }
 
-
-
 .f-s-18{
 	font-size: 18px;
 }
@@ -482,11 +472,9 @@ input::-webkit-input-placeholder{
 	font-size: 10px;
 }
 
-
 .green{
 	color: #006600;
 }
-
 
 .publications{
 	border-radius: 5px;
@@ -577,7 +565,6 @@ span.f-s-18{
 	width: 220px;
 }
 
-
 .black-list-a{
 	position: relative;
 	display: block;
@@ -633,8 +620,7 @@ span.f-s-18{
 }
 
 .navigation>a{
-	padding: 23px 0 23px 34px;
-	
+	padding: 23px 0 23px 34px;	
 }
 
 .navigation a{
